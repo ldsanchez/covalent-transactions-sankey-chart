@@ -7,7 +7,7 @@ export const baseUrl = "https://api.covalenthq.com";
 export const fetchApi = async (url) => {
   const response = await axios.get((url), {
     params : {
-      key: process.env.COVALENT_KEY,
+      key: "ckey_3a1949ee26c24727b7935960a74",
     },
     headers : {
       Accept: "application/json"
