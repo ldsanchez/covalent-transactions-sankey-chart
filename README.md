@@ -1,35 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏗 Next.js - Wallet Sankey Chart Viz
 
-## Getting Started
+> An easy way to visualize inflows and outflows from a Wallet using the Sankey Chart! 🚀 part of a submission to GR4 Covalent Hackaton
 
-First, run the development server:
+![Transactions Sankey Chart](https://user-images.githubusercontent.com/5996795/176727499-f12340df-0199-4d47-9755-146b2e45e5ce.png)
+
+# 🏄‍♂️ Quick Start
+
+Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
+
+> clone/fork 🏗 scaffold-eth: Multisig Wallet Factory
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/ldsanchez/covalent-transactions-sankey-chart.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> install:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+cd covalent-transactions-sankey-chart
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+> start your 📱 frontend:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+nom run dev
+```
 
-## Learn More
+📝 Edit your `.env` & update the COVALENT_KEY, get one at https://www.covalenthq.com
 
-To learn more about Next.js, take a look at the following resources:
+📱 Open http://localhost:3000/TransactionsSankeyChart to see the app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Use it! 🛰
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+put your wallet address as a parameter (ex: address=vitalik.eth)
 
-## Deploy on Vercel
+# 💌 P.S.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌍 Need to upload a fix for Cycles, as Sankey charts doenst allow for cycles A -> B -> A
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# covalent-transactions-sankey-chart
+---
+
+🙏 Please check out our [Gitcoin grant](https://gitcoin.co/grants/2851/scaffold-eth) too!
