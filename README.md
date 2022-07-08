@@ -8,7 +8,7 @@
 
 Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
-> clone/fork 🏗 scaffold-eth: Multisig Wallet Factory
+> clone/fork 🏗 Next.js - Wallet Sankey Chart Viz
 
 ```bash
 git clone https://github.com/ldsanchez/covalent-transactions-sankey-chart.git
